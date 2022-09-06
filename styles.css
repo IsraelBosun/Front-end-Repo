@@ -1,13 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
 body{
-    background-color: red;
-    height: 700px;
+    background-color: bisque;
 }
-.card{
-   display: ;
+
+.image1{
+
+    display: inline;
 }
-.image{
-    display: inline-block;
+.age{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.testing{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    
 }
 .text{
-    display: inline-block;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.perfume{
+    margin: 9px 0 0 9px;
+    font-weight: 700;
+    font-family: Fraunces;
 }
