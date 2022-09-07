@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat, sans-serif;
+    font-size: 14px;
 }
 body{
-    background-color: bisque;
+    background-color:hsl(30, 38%, 92%);
+    width: 1440px;
 }
 
 .image1{
-
     display: inline;
 }
 .age{
@@ -23,15 +23,75 @@ body{
     margin: auto;
     width: 500px;
     display: flex;
+    height: 375px
     
 }
-.text{
+.half{
     background-color: white;
     border-radius: 0px 5px 5px 0px;
-    
+    height: 375px;
+}
+.text{
+    margin-left: 20px;
+    margin-top: 25px;
 }
 .perfume{
-    margin: 9px 0 0 9px;
-    font-weight: 700;
-    font-family: Fraunces;
+    font-size: 12px;
+    letter-spacing: 5px; 
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: hsl(228, 12%, 48%);
+    font-weight: bold;
 }
+.essence{
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1; 
+}
+.para{
+    color: hsl(228, 12%, 48%);
+    font-weight: 600;
+}
+.num1{
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family:'Fraunces', serif;
+    font-weight: bold; 
+    display: inline;  
+}
+.divi{
+    display: flex;
+}
+.num2{
+    margin-top: 12px;
+    margin-left: 15px;
+    text-decoration: line-through;
+   color: hsl(228, 12%, 48%);
+   font-weight: 600;
+}
+
+button{
+  width: 200px;
+  border-radius: 10px;
+  height: 40px;
+  background-color:hsl(158, 36%, 37%);
+  color: white;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+#icon{
+ font-size: 16px;
+ margin-right: 10px;
+ margin-top: -1px;
+    
+}
+.num3{
+   font-weight: bold;
+   font-size: 14px;
