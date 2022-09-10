@@ -1,0 +1,126 @@
+.{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-weight: 700px;
+}
+body{
+    margin: 20px 40px;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    height: 900px;
+    
+}
+.list{
+    display: inline;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 900px;  
+}
+.snap{
+    display: inline;
+    margin-bottom: 5px;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.login{
+    display: inline;
+    
+    align-items: center; 
+    justify-content: left;
+}
+
+.list li{
+    display: inline;
+    padding-left: 15px;
+    margin-left: 50px;
+    
+}
+.divi{
+    /* display: inline-block; */
+    width: 500px;
+    margin-right: 150px;
+    
+}
+
+.log{
+    display: inline;
+    margin-right: 50px;
+}
+button{
+    padding: 9px 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+.main{
+    display: inline;
+    display: flex;
+    margin: 100px 120px;
+    justify-content: space-between;
+     
+}
+.img{
+    margin-top: -550px;
+    margin-right: 50px;
+    width: 500px;
+    height: 600px;
+    float: right; 
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    font-family: 'Epilogue', sans-serif;
+}
+p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 98%)
+    font-weight: 400;
+    
+}
+.btn{
+    margin-top: 20px ;
+    color: white;
+    background-color: black;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+a:link{
+    text-decoration: none;
+    
+}
+.dropdowm__menu{
+    display: block;
+    left: 0;
+    top: 100%;
+}
+.dropdowm__menu ul{
+    display: block;
+}
+.images{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.attribution{
+    position: absolute;
+    bottom: -50px;
+    display: inline;
+    left: 550px;
+    
+    
+}
